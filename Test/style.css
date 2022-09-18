@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#form-login{
+    width: 355px;
+    height: 460px;
+    box-shadow: 5px 5px 8px 4px#888888;
+}
+
+#form-login .form-heading{
+    margin: 25px;
+}
+
+#form-login .form-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+#form-login .form-heading p{
+    font-weight: 200;
+}
+
+.form-group{
+    padding: 10px;
+}
+
+.form-grous input{
+    font-size: 1rem;
+    line-height: 50px;
+    width: 300px;
+    font-weight: 400;
+    margin-left: 25px;
+    color: rgba(0,0,0,0.9);
+    position: relative;
+    z-index: 1;
+    border-radius: 4px !important;
+}
+
+.form-group input{
+    font-size: 1rem;
+    line-height: 50px;
+    width: 300px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: rgba(0,0,0,0.9);
+    position: absolute;
+    z-index: 1;
+    border-radius: 4px !important;
+}
+
+.form-group button{
+    background: transparent;
+    border: 0;
+    color: #0073b1;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 260px;
+    outline: none;
+    cursor: pointer;
+}
+
+#form-login a{
+    color: #0073b1;
+    font-weight: bold;
+    margin-left: 25px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    z-index: 3;
+    margin-top: 45px;
+    position: absolute;
+}
+
+#form-login .form-submit {
+    width: 300px;
+    background-color: rgb(0, 115, 177);
+    margin-top: 80px;
+    margin-left: 25px;
+    height: 52px;
+    line-height: 52px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#form-login .end{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#form-login .end span{
+    color: #0073b1;
+}
